@@ -1,0 +1,176 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* BODY */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+    width: 100%;
+    background-color: #1e293b;
+    color: white;
+    padding: 18px 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* CONTAINER */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+/* CARD */
+
+.card{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
+
+/* TITLE */
+
+.title{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+
+
+/* INPUTS */
+
+.input-group{
+    margin-bottom: 18px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+/* BUTTON */
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #1d4ed8;
+}
+
+
+
+/* DASHBOARD */
+
+.dashboard-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.dashboard-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+
+
+/* DASHBOARD CARD */
+
+.dashboard-card{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h2{
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+
+
+/* TABLE */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th,
+table td{
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: center;
+}
+
+table th{
+    background-color: #1e293b;
+    color: white;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .dashboard-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        width: 90%;
+    }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Room Allocation</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+    Hostel Room Allotment System
+
+</div>
+
+
+
+<!-- ALLOCATION FORM -->
+
+<div class="container">
+
+    <div class="card">
+
+        <h1 class="title">
+
+            Hostel Preference Form
+
+        </h1>
+
+
+
+        <form id="allocationForm">
+
+
+
+            <!-- STUDENT ID -->
+
+            <div class="input-group">
+
+                <label>Student ID</label>
+
+                <input type="number"
+                       id="studentId"
+                       placeholder="Enter Student ID"
+                       required>
+
+            </div>
+
+
+
+            <!-- FLOOR -->
+
+            <div class="input-group">
+
+                <label>Preferred Floor</label>
+
+                <select id="preferredFloor">
+
+                    <option value="1">
+                        Floor 1
+                    </option>
+
+                    <option value="2">
+                        Floor 2
+                    </option>
+
+                    <option value="3">
+                        Floor 3
+                    </option>
+
+                    <option value="4">
+                        Floor 4
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- ROOM TYPE -->
+
+            <div class="input-group">
+
+                <label>Room Type</label>
+
+                <select id="preferredRoomType">
+
+                    <option value="AC">
+                        AC
+                    </option>
+
+                    <option value="NON_AC">
+                        NON AC
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- CAPACITY -->
+
+            <div class="input-group">
+
+                <label>Room Capacity</label>
+
+                <select id="preferredCapacity">
+
+                    <option value="2">
+                        2 Seater
+                    </option>
+
+                    <option value="3">
+                        3 Seater
+                    </option>
+
+                    <option value="4">
+                        4 Seater
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- BUTTON -->
+
+            <button class="btn"
+                    type="submit">
+
+                Allocate Room
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
