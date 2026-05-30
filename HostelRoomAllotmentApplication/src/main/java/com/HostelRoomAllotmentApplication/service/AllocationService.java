@@ -98,8 +98,6 @@ public class AllocationService {
         }
 
 
-
-        // FALLBACK ROOM SEARCH
         List<Room> similarRooms =
 
                 roomRepository
