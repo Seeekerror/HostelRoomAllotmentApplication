@@ -52,10 +52,6 @@ if(registerForm){
     });
 }
 
-
-
-
-
 // LOGIN API
 
 const loginForm = document.getElementById("loginForm");

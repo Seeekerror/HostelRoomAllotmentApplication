@@ -98,6 +98,8 @@ public class AllocationService {
         }
 
 
+
+        // FALLBACK ROOM SEARCH
         List<Room> similarRooms =
 
                 roomRepository
@@ -152,9 +154,6 @@ public class AllocationService {
         }
 
 
-
-        // RANDOM ROOM SEARCH
-
         List<Room> randomRooms =
                 roomRepository.findByGender(
                         student.getGender()
@@ -196,8 +195,6 @@ public class AllocationService {
         }
 
 
-
-// WAITING LIST
 
         WaitingList waitingList = new WaitingList();
 
